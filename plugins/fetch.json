@@ -1,0 +1,8 @@
+{
+    "cordova-plugin-camera": {
+        "source": "registry",
+        "id": "cordova-plugin-camera"
+    },
+    "is_top_level": "is_true",
+    "variables": {}
+}
