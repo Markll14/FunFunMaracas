@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <title>Blank App</title>
+        <link rel="stylesheet" href="./CSS/main.css ">
         <link rel="stylesheet" href="./CSS/framework7.min.css">
     </head>
     <body>
@@ -19,7 +20,12 @@
                     <h1 class="main-header">
                         Welcome to moment photos
                     </h1>
-                    <button  class="button button-fill" id="camButton"></button>
+                    <div class="overlay" id="overId">
+                        <div class="text">Take it in and enjoy the moment for this one is already gone</div>
+                    </div>
+                    <img src="./Assets/Red-face.jpg" alt="" id="result">
+                    
+                    <button  class="button button-fill" id="camButton">Snap a Moment</button>
                   </div>
                 </div>
               </div>
