@@ -5,35 +5,26 @@
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <title>Blank App</title>
         <link rel="stylesheet" href="./CSS/main.css ">
-        <link rel="stylesheet" href="./CSS/framework7.min.css">
+        
     </head>
     <body>
-          <!-- App root element -->
-    <div id="app">
-            <!-- Your main view, should have "view-main" class -->
-            <div class="view view-main">
-          <!-- Initial Page, "data-name" contains page name -->
-              <div data-name="home" class="page">
-                <!-- Scrollable page content -->
-                <div class="page-content">
-                  <div class="wrapper">
-                    <h1 class="main-header">
-                        Welcome to moment photos
-                    </h1>
-                    <div class="overlay" id="overId">
-                        <div class="text">Take it in and enjoy the moment for this one is already gone</div>
-                    </div>
-                    <img src="./Assets/Red-face.jpg" alt="" id="result">
-                    
-                    <button  class="button button-fill" id="camButton">Snap a Moment</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <!-- App root element --> 
+          
+        <p id="Alpha"></p>
+        <p id="Beta"></p>
+        <p id="Gamma"></p>
+        <p id="maracaCount"></p>
+        <div id="canvas">
+         <h2 id="shakeNotice">Start Shaking!</h2> 
+        </div>
         
-        <script type="text/javascript" src="./JS/framework7.min.js"></script>
+        <audio id="maracaOne" src="./Assets/Korg-N1R-Maracas.wav"></audio>
+        <audio src="./Assets/Roland-SC-88-Maracas.wav" id="maracaTwo"></audio>
+        <audio src="./Assets/Harry Belafonte - Jump In The Line.mp3" id="shake"></audio>
+        
         <script type="text/javascript" src="./JS/scripts.js"></script>
+        <script type="text/javascript" src="./JS/sketch.js"></script>
+        <script type="text/javascript" src="./JS/p5.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
     </body>
 </html>

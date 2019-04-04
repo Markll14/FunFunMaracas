@@ -1,37 +1,12 @@
-img {
-    height: 40vh;
-    width: 100%;
-
-    display: block;
-  width: 100%;
-    
+#canvas {
+  position: relative;
 }
 
-.wrapper {
-    position: relative;
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+#shakeNotice {
+  font-size: 3.5em;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
 }
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-size: 2rem;
-}
-

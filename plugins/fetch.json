@@ -1,7 +1,7 @@
 {
-    "cordova-plugin-camera": {
+    "cordova-plugin-vibration": {
         "source": "registry",
-        "id": "cordova-plugin-camera"
+        "id": "cordova-plugin-vibration"
     },
     "is_top_level": "is_true",
     "variables": {}
